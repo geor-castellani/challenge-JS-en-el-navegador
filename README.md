@@ -2,7 +2,7 @@
 
 Ésta es mi resolución de la práctica propuesta en el módulo de Javascript desde el navegador del Bootcamp Keepcoding-Glovo.
 
-**Para ingresar a la app hacer click en el siguiente enlace:** ```https://geor-castellani.github.io/challenge-JS-en-el-navegador/index.html```
+**Para ingresar a la app hacer click en el siguiente enlace:** https://geor-castellani.github.io/challenge-JS-en-el-navegador/index.html
 
 ## Enunciado de la práctica
 
