@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Control de gastos</title>
+</head>
+
+<body>
+  <h2>CONTROL DE GASTOS</h2>
+
+  <div class="container">
+    <h4>Saldo actual</h4>
+
+    <h1 id="current-balance" class="current-balance">0.00€</h1>
+
+    <div class="income-expenses">
+      <div>
+        <h4>Ingresos</h4>
+        <p id="positive-money" class="positive-money">+0.00€</p>
+      </div>
+
+      <div>
+        <h4>Gastos</h4>
+        <p id="negative-money" class="negative-money">-0.00€</p>
+      </div>
+    </div>
+
+    <h3>Mis movimientos</h3>
+
+    <ul id="transactions" class="transactions">
+
+    </ul>
+
+    <h3>Añadir nueva transacción</h3>
+
+    <form id="form">
+      <div class="form-control">
+        <label for="text">Nombre</label>
+        <input autofocus type="text" id="text" placeholder="Introduce concepto" />
+      </div>
+
+      <div class="form-control">
+        <label for="amount">Monto<br />
+          <small>(negativo - gastos, positivo - ingresos)</small>
+        </label>
+        <input type="number" id="amount" placeholder="Introduce el monto" />
+      </div>
+
+      <button class="add-button">Añadir</button>
+    </form>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
